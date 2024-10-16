@@ -88,10 +88,19 @@ div .main-content-wrapper {
     background-color: #050505;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a#black-button2:hover {
+    background-color: #353535;
 }
 
 div .container {
     display: flex;
+    padding-top: 100px;
 }
 
 .hero-pic {
@@ -101,12 +110,20 @@ div .container {
 
 h1 {
     font-size: 53px;
-    font-family: 'Inter';
-    margin-bottom: 0;
+    margin: 0;
+}
+
+p.introduction {
+    color: #7f7f7f;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    line-height: 25px;
 }
 
 div .text-box {
     width: 500px;
+    font-family: 'Inter';
+    padding-right: 30px;
 }
 
 div .bark-box {
