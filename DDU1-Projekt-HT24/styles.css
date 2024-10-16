@@ -1,1 +1,72 @@
-body {}
+/*Gör en commit av menyn*/
+
+@font-face {
+    src: url(/material/Inter.ttf);
+    font-family: 'Inter';
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    padding: 20px 3px 20px 3px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    padding:
+}
+
+.navbar a {
+    color: #050505;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.menu-buttons:hover {
+    background-color: #f4f4f4;
+}
+
+.navbar a#black-button {
+    color: white;
+    background-color: #050505;
+    border-radius: 5px;
+}
+
+.navbar a#black-button:hover {
+    background-color: #353535;
+}
+
+.menu-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.pointer {
+    padding-bottom: 2px;
+    margin-left: 5px;
+}
+
+.logo {
+    height: 20px;
+}
+
+div#divide {
+    height: 70%;
+    width: 10px;
+    border-right: 1px solid #e5e5e5;
+}
