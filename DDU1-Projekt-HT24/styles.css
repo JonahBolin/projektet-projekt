@@ -7,6 +7,7 @@
 
 body {
     background-color: white;
+    font-family: 'Inter';
 }
 
 header {
@@ -18,7 +19,6 @@ header {
     background-color: white;
     display: flex;
     justify-content: space-between;
-    font-family: 'Inter';
     padding:
 }
 
@@ -37,7 +37,7 @@ header {
     color: white;
     background-color: #050505;
     border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .navbar a#black-button:hover {
@@ -87,12 +87,11 @@ div .main-content-wrapper {
     color: white;
     background-color: #050505;
     border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     display: inline-block;
     box-sizing: border-box;
     padding: 10px;
     text-decoration: none;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 a#black-button2:hover {
@@ -125,7 +124,6 @@ p.introduction {
 
 div .text-box {
     width: 500px;
-    font-family: 'Inter';
     padding-right: 30px;
 }
 
@@ -143,6 +141,8 @@ img.hero-pic {
     justify-content: center;
     gap: 20px;
     margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 div.logo-box {
@@ -159,4 +159,26 @@ div#branch {
     width: 7%;
 }
 
-div#match-group {}
+div.results-box {
+    width: 40vw;
+}
+
+div.results-box p {
+    color: #7f7f7f;
+    margin: 0;
+    line-height: 25px;
+}
+
+div.results-box h2 {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+div.barkies-box {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+img.barkies {
+    max-width: 100%;
+}
