@@ -214,3 +214,19 @@ div.quote-info {
     display: flex;
     justify-content: center;
 }
+
+div#free-plan {
+    text-align: center;
+}
+
+div.container6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 60px;
+}
+
+div.container6 a {
+    margin-top: 10px;
+}
