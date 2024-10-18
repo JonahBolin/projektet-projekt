@@ -230,3 +230,21 @@ div.container6 {
 div.container6 a {
     margin-top: 10px;
 }
+
+div.list-wrapper {
+    max-width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    position: relative;
+}
+
+.checklist li::before {}
