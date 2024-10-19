@@ -217,6 +217,7 @@ div.quote-info {
 
 div#free-plan {
     text-align: center;
+    padding-bottom: 40px;
 }
 
 div.container6 {
@@ -229,6 +230,10 @@ div.container6 {
 
 div.container6 a {
     margin-top: 10px;
+}
+
+div.list-wrapper {
+    padding-bottom: 40px;
 }
 
 div.list-wrapper ul {
@@ -266,4 +271,27 @@ div#section2 {
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
     color: #7f7f7f;
+}
+
+div.team-wrapper {
+    padding-top: 40px;
+    border-top: 1px solid #e5e5e5;
+}
+
+div#team-intro {
+    text-align: center;
+    margin: 0;
+}
+
+div#team-intro h2,
+p {
+    margin: 0;
+}
+
+div.team-wrapper p {
+    color: #7f7f7f;
+}
+
+div.team-box {
+    display: flex;
 }
