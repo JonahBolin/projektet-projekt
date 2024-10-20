@@ -323,3 +323,29 @@ div.emojis-box a {
     display: inline-block;
     margin-top: 10px;
 }
+
+div.container8 {
+    margin-top: 100px;
+}
+
+div#rating-header {
+    text-align: center;
+}
+
+div.rating-box {
+    display: flex;
+    gap: 30px;
+}
+
+div.rating-text {
+    width: 50%;
+}
+
+div.rating-badges {
+    width: 50%;
+}
+
+img.badges {
+    max-width: 100%;
+    height: auto;
+}
