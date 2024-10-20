@@ -286,6 +286,7 @@ div#team-intro {
 div#team-intro h2,
 p {
     margin: 0;
+    line-height: 1.7;
 }
 
 div.team-wrapper p {
@@ -294,4 +295,31 @@ div.team-wrapper p {
 
 div.team-box {
     display: flex;
+    margin-top: 30px;
+}
+
+div.problem {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+div.emojis-box#problem-divide {
+    border-right: 1px solid #e5e5e5;
+}
+
+div.problem h3 {
+    margin: 0;
+}
+
+div.emojis-box {
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+div.emojis-box a {
+    color: #353535;
+    display: inline-block;
+    margin-top: 10px;
 }
