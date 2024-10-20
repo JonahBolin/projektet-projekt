@@ -349,3 +349,30 @@ img.badges {
     max-width: 100%;
     height: auto;
 }
+
+div.container9 {
+    display: flex;
+    justify-content: center;
+}
+
+div.statistics-box {
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 50px;
+}
+
+div.statistics-box#stat-divide {
+    border-right: 1px solid #e5e5e5;
+}
+
+
+.percentage {
+    font-size: 50px;
+    font-weight: 650;
+    color: #666666;
+}
+
+.p-text {
+    color: #7f7f7f;
+    font-weight: 320;
+}
