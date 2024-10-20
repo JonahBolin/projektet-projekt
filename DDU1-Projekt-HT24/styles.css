@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     src: url(/material/Inter.ttf);
     font-family: 'Inter';
@@ -6,18 +10,24 @@
 body {
     background-color: white;
     font-family: 'Inter';
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header {
     padding: 10px 3px 15px 3px;
-    border-bottom: 1px solid #e5e5e5;
 }
 
 .navbar {
     background-color: white;
     display: flex;
     justify-content: space-between;
-    padding:
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 20px 10px 20px;
 }
 
 .navbar a {
@@ -198,6 +208,7 @@ img.face {
     width: 48px;
     height: 48px;
     padding-right: 10px;
+    object-fit: cover;
 }
 
 p.identity {
